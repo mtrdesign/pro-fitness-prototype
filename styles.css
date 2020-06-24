@@ -15,6 +15,7 @@ body {
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: -210px;
   margin-top: 56px;
   font-family: 'Roboto', sans-serif;
 }
@@ -203,6 +204,14 @@ h3 {
   max-height: 60vh;
 }
 
+.row-exercise.bg-white {
+  position: absolute;
+}
+
+.row-exercise.bg-white h1 {
+  color: #000000;
+}
+
 .row-rest-timer,
 .row-workout-finished {
   width: 100%;
@@ -297,4 +306,10 @@ h3 {
   width: 100%;
   height: 100%;
   max-height: 60vh;
+}
+
+.mobile-wrapper {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
 }
