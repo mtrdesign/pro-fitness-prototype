@@ -206,6 +206,7 @@ h3 {
 
 .row-exercise.bg-white {
   position: absolute;
+  width: 100%;
 }
 
 .row-exercise.bg-white h1 {
